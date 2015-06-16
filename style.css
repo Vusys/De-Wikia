@@ -1,0 +1,66 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("memory-alpha.wikia.com") {
+
+	#WikiaFooter,			/* Footer */
+	.global-footer,			/* More footer */
+	#WikiaBar,				/* Floating bottom bar */
+	#globalNavigation,		/* Floating top bar... because one wasn't enough */
+	#WikiaRail,				/* Waste of space sidebar */
+	#PageShareToolbar,		/* Social media sharing icons */
+	#WikiaArticleBottomAd	/* Adverts */
+	{
+		display:none;
+	}
+
+	.WikiaMainContent /* Make the main content the only content*/
+	{
+		width:100%;
+	}
+
+	.page-share-container /* Fixes the page count taking up too much vertical space*/
+	{
+		height: auto;
+	}
+
+	.WikiaSiteWrapper /* Removes unneeded margin from content. formerly used by the removed floating bar */
+	{
+		padding-top: 0px;
+	}
+
+	.WikiaPage{
+		width: 1024px;
+	}
+
+	/* Disables the font shifting media query */
+
+	.WikiaPage .WikiaArticle li {
+		line-height:inherit;
+	}
+
+	.WikiaPage h1,.WikiaPage .WikiaRail .module h3,.WikiaRail .module .WikiaPage h3 {
+		font-size:28px;
+		line-height:28px;
+	}
+
+	.WikiaPage h2 {
+		font-size:20px;
+		line-height:22px;
+	}
+
+	.WikiaPage h3 {
+		font-size:17px;
+		line-height:22px;
+	}
+
+	.WikiaPage h4 {
+		font-size:15px;
+		line-height:22px;
+	}
+
+	.WikiaPage .WikiaArticle,.WikiaPage .wikia-page-header h2 {
+		font-size:14px;
+		line-height:22px;
+	}
+
+}
