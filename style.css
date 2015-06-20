@@ -8,7 +8,8 @@
 	#globalNavigation,		/* Floating top bar... because one wasn't enough */
 	#WikiaRail,				/* Waste of space sidebar */
 	#PageShareToolbar,		/* Social media sharing icons */
-	#WikiaArticleBottomAd	/* Adverts */
+	#WikiaArticleBottomAd,	/* Adverts */
+	.WikiaNotifications /* Toast */
 	{
 		display:none;
 	}
