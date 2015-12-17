@@ -1,4 +1,6 @@
-Wikia is a blight on the internet. When used with a adblocker, this user style removes the rest of Wikia's rubbish from wikis that are stuck or unwilling to move from Wikia, like Memory Alpha.
+# De Wikia
+
+Wikia is a blight on the internet. When used with an adblocker, this user style removes the rest of Wikia's rubbish from wikis that are stuck or unwilling to move from Wikia, like Memory Alpha.
 
 See the [controversy](https://en.wikipedia.org/wiki/Wikia#Controversy) section on their Wikipedia article to see just how awful they are.
 
