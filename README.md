@@ -10,7 +10,10 @@ See the [controversy](https://en.wikipedia.org/wiki/Wikia#Controversy) section o
 * Widens content to full width
 
 # Screenshots
-Before | After
-------------- | -------------
-![Before](https://dl.dropboxusercontent.com/u/62398/Screenshots/2015-12-17_225930.png "Before") | ![After](https://dl.dropboxusercontent.com/u/62398/Screenshots/2015-12-17_225839.png "After")
+
+## Before
+![Before](https://dl.dropboxusercontent.com/u/62398/Screenshots/2015-12-17_225930.png "Before") 
+
+## After
+![After](https://dl.dropboxusercontent.com/u/62398/Screenshots/2015-12-17_225839.png "After")
 
