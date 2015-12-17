@@ -1,22 +1,45 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("memory-alpha.wikia.com") {
+@-moz-document domain("wikia.com") {
 
 	#WikiaFooter,			/* Footer */
 	.global-footer,			/* More footer */
 	#WikiaBar,				/* Floating bottom bar */
-	#globalNavigation,		/* Floating top bar... because one wasn't enough */
+
 	#WikiaRail,				/* Waste of space sidebar */
 	#PageShareToolbar,		/* Social media sharing icons */
 	#WikiaArticleBottomAd,	/* Adverts */
+	.SearchAdsTopWrapper, /* More adverts */
+	.hubs-entry-point, /* Nav hamburger */
 	.WikiaNotifications /* Toast */
 	{
 		display:none;
+	}
+	
+	.start-wikia-container,  /* Create a wiki on the worst wiki hosting website? */
+.account-navigation-container, /* No logins */
+	.wikia-logo-container
+	{
+		display: none !important;
 	}
 
 	.WikiaMainContent /* Make the main content the only content*/
 	{
 		width:100%;
+	}
+	
+		
+	#globalNavigation{
+	position: static !important;
+		background: transparent;
+		box-shadow: none; 
+	}
+	.search-form-wrapper{
+				margin-left:59px;
+	}
+	.search-form-wrapper .search-form{
+		width: 50%;
+
 	}
 
 	.page-share-container /* Fixes the page count taking up too much vertical space*/
@@ -24,13 +47,13 @@
 		height: auto;
 	}
 
-	.WikiaSiteWrapper /* Removes unneeded margin from content. formerly used by the removed floating bar */
-	{
-		padding-top: 0px;
-	}
-
 	.WikiaPage{
 		width: 1024px;
+	}
+	
+	/* Fixes width on search results with advert removed */
+	.results-wrapper{
+		width: 82%;
 	}
 
 	/* Disables the font shifting media query */
@@ -63,5 +86,6 @@
 		font-size:14px;
 		line-height:22px;
 	}
+
 
 }
